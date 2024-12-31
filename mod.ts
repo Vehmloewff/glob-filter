@@ -1,4 +1,3 @@
-import 'https://deno.land/x/hackle/init.ts'
 import { isAbsolute, globToRegExp, normalize, joinGlobs, relative } from 'https://deno.land/std@0.71.0/path/mod.ts'
 
 export interface GlobData {
